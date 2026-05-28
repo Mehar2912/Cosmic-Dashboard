@@ -34,3 +34,45 @@ Cosmic Dashboard is a visually immersive web application that brings live space 
 * NASA NeoWs API → asteroid data
 * N2YO API → ISS tracking
 * Satellitemap.space → satellite telemetry
+
+## 🗂️ Project Structure
+
+```bash
+Cosmic-Dashboard/
+│── index.html                  # Main landing page
+│── asteroid.html               # Asteroid tracking page
+│── iss.html                    # ISS real-time location tracker
+│── planetaryclock.html         # Planetary clock simulation
+│── satellite_telemetry.html    # Satellite telemetry visualization
+│
+│── asteroid_bg.mp4             # Background video for asteroid page
+│── blackhole_bg.mp4            # Black hole themed background
+│── sat_bg.mp4                  # Satellite telemetry background
+│── stars_bg.mp4                # Starfield background
+│
+│── README.md                   # Project documentation
+```
+
+## 🛰️ System Architecture
+
+```text
+                ┌────────────────────┐
+                │   User Interface   │
+                │  (HTML/CSS/JS)     │
+                └─────────┬──────────┘
+                          │
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+        ▼                 ▼                 ▼
+ ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+ │ NASA NeoWs │   │  N2YO API  │   │ Satellitemap│
+ │ Asteroid   │   │ ISS Data   │   │ Telemetry   │
+ └─────────────┘   └─────────────┘   └─────────────┘
+                          │
+                          ▼
+              ┌──────────────────┐
+              │ Canvas Animations│
+              │ & Visual Effects │
+              └──────────────────┘
+```
+
