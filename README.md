@@ -8,7 +8,8 @@ ISS Location – powered by the N2YO API, allowing users to view the Internation
 Planetary Clock – a custom-built JavaScript and Canvas simulation that demonstrates orbital mechanics, complete with planetary orbits, Saturn’s rings, Earth’s moon, and an asteroid belt.
 
 ⚡ Tech Stack & Tools:
-Languages: HTML, CSS, JavaScript
+Languages:
+HTML, CSS, JavaScript
 Animations:
 Canvas API → starfields, drifting stars, orbital mechanics
 CSS animations → glowing effects, transitions, and planetary visuals
