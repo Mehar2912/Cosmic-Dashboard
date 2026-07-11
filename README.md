@@ -1,8 +1,8 @@
-# Cosmic-Dashboard 🌌
+# Cosmic-Dashboard 
 
 Cosmic Dashboard is a visually immersive web application that brings live space data to your fingertips. From asteroid tracking to real-time ISS mapping, the project combines interactive visuals with space exploration data in a cosmic-themed experience.
 
-## 🔭 Key Features
+##  Key Features
 
 * **Asteroid Tracking**
   Integrated with NASA’s NeoWs API to fetch and display data on near-Earth objects.
@@ -16,7 +16,7 @@ Cosmic Dashboard is a visually immersive web application that brings live space 
 * **Planetary Clock**
   A custom JavaScript + Canvas simulation demonstrating orbital mechanics, featuring planetary orbits, Saturn’s rings, Earth’s moon, and an asteroid belt.
 
-## ⚡ Tech Stack & Tools
+##  Tech Stack & Tools
 
 ### Languages
 
@@ -35,7 +35,7 @@ Cosmic Dashboard is a visually immersive web application that brings live space 
 * N2YO API → ISS tracking
 * Satellitemap.space → satellite telemetry
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 Cosmic-Dashboard/
@@ -53,7 +53,7 @@ Cosmic-Dashboard/
 │── README.md                   # Project documentation
 ```
 
-## 🛰️ System Architecture
+##  System Architecture
 
 ```text
                 ┌────────────────────┐
